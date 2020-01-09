@@ -1,0 +1,14 @@
+body{
+    background-color: cadetblue;
+}
+input{
+    background-color: chartreuse;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+img{
+    display: none;
+    width: 200px;
+    height: 200px;
+}
