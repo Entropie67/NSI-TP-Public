@@ -13,6 +13,10 @@ boutton.addEventListener("click",function (){
 });
 
 image = document.querySelector("img");
+image.addEventListener("mouseover", function () {
+    image.style.display= "none";
+
+});
 
 
 
