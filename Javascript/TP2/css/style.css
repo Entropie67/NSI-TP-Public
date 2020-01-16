@@ -1,5 +1,6 @@
 body {
-    background-color: burlywood;
+    background-color: black;
+    color: white;
 }
 h1 {
     text-align: center;
@@ -8,8 +9,9 @@ section {
     display: flex;
 
 }
-div{
+.perso {
     display: flex;
+    position: relative;
     flex-direction: column;
     margin: auto;
     border: 5px solid;
@@ -20,9 +22,23 @@ div{
     height: 300px;
 }
 
+.calques {
+    position: absolute;
+    background-color: gray;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    opacity: 0%;
+}
+
+.calques:hover {
+    display: block;
+    opacity: 50%;
+}
+
 .vote {
     padding: 1em;
     border-radius: 5px;
-    margin-top: 5px;
+    margin: 5px;
     background-color: lightpink;
 }
