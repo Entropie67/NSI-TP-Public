@@ -31,9 +31,15 @@ section {
     opacity: 0%;
 }
 
+.calques h2{
+    color: whitesmoke;
+    text-align: center;
+ }
+
+
 .calques:hover {
     display: block;
-    opacity: 50%;
+    opacity: 60%;
 }
 
 .vote {
