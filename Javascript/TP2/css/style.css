@@ -39,7 +39,6 @@ section {
 
 
 .calques:hover {
-    display: block;
     opacity: 60%;
 }
 
@@ -50,4 +49,17 @@ section {
     background-color: lightpink;
     font-weight: bold;
     font-size: medium;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 150%;
+    border-radius: 5px;
 }
